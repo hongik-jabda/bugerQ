@@ -1,4 +1,4 @@
-name: Blooming CI
+name: BurgerQ CI
 
 on:
   pull_request:
