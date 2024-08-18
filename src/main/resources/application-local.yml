@@ -1,12 +1,13 @@
 spring:
-  application:
-    name: burgerQ
+  config:
+    activate:
+      on-profile: test
 
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3310/burgerq
     username: root
     password: 1234
-    driver-class-name: com.mysql.cj.jdbc.Driver
   session:
     jdbc:
       initialize-schema: always
