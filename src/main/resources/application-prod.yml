@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3310/burgerq
-    username: root
-    password: 1234
+    url: ${DB_URL_PROD}
+    username: ${DB_USERNAME_PROD}
+    password: ${DB_PASSWORD_PROD}
   session:
     jdbc:
       initialize-schema: always
@@ -13,7 +13,6 @@ spring:
       ddl-auto: update
     defer-datasource-initialization: true
     open-in-view: false
-    show-sql: true
 
 springdoc:
   swagger-ui:
