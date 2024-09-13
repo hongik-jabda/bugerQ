@@ -6,7 +6,7 @@ services:
     container_name: burgerq-mysql
     restart: always
     ports:
-      - "3310:3306"
+      - "3306:3306"
     environment:
       MYSQL_DATABASE: burgerq
       MYSQL_ROOT_PASSWORD: 1234
