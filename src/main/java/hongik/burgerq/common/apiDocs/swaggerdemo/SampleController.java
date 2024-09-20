@@ -1,4 +1,4 @@
-package hongik.burgerq.swaggerdemo;
+package hongik.burgerq.common.apiDocs.swaggerdemo;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
