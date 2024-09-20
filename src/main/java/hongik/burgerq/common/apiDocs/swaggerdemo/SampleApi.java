@@ -1,4 +1,4 @@
-package hongik.burgerq.swaggerdemo;
+package hongik.burgerq.common.apiDocs.swaggerdemo;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -8,7 +8,6 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
 public interface SampleApi {
 	@Operation(summary = "샘플 API 입니다.")
