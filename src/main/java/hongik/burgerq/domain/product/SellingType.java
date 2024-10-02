@@ -9,5 +9,5 @@ public enum SellingType {
 	DISCONTINUED("단종"),
 	;
 	
-	private String korName;
+	private final String korName;
 }
