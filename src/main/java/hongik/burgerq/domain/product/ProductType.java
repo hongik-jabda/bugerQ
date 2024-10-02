@@ -9,5 +9,5 @@ public enum ProductType {
 	BEVERAGE("음료 메뉴")
 	;
 	
-	private String korName;
+	private final String korName;
 }
