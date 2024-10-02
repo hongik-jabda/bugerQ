@@ -18,13 +18,4 @@ public class Product {
 	private SellingType sellingType;
 	private ProductType productType;
 	
-	public Product from(ProductCreateDto dto) {
-		return Product.builder()
-				.name(dto.name)
-				.isFamous(dto.isFamous)
-				.price(dto.price)
-				.sellingType(dto.sellingType)
-				.productType(dto.productType)
-				.build();
-	}
 }
